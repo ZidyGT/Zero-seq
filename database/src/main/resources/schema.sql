@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS sequence;
+
+CREATE TABLE sequence (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  count INT NOT NULL,
+  sequence VARCHAR(250) NOT NULL
+);
